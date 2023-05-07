@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>HomeBrewing Your Wii</title>
+		<link href="indexstyle.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<h1><center>Intro</center></h1>
+	<hr>
+	<p>
+		NOTA: Para cada folder que bajes make sure to EXTRACT the zip folder. 
+		Once extracted delete zip folders. Esto exclue los juegos!
+	</p>
+	
+	<h1><center>USB</center></h1>
+	<hr>
+	<p>
+		*Here is where all the games (and the games data) are going to go.
+	</p>
+	<p>
+		Follow tutorial (*no include WiiBackupManager parte): 
+		<a href="https://www.youtube.com/watch?v=gx2VUM22sS0&ab_channel=AndyDemma" target="_blank">Downloading Games</a>
+	</p>
+	<p>
+		<label>
+				<input type="checkbox">Ve a esta pagina para bajar los juego: <a href="https://vimm.net/vault/Wii" taget="_blank">Games</a>
+		</label>
+		<br>+Bajando los juegos se va tardar! Mientras se bajan puedes continuar los siguientes pasos.
+	</p>
+	<p>
+		<label>
+				<input type="checkbox">Format USB to NTFS! 
+		</label>
+	</p>
+	<p>
+		<label>
+				<input type="checkbox">Once formatted create un folder llamado wbfs en el USB
+		</label>
+	</p>
+	<p>
+		<label>
+				<input type="checkbox">Install software 7-zip: <a href="https://7-zip.org/" target="_blank"> 7-zip</a>
+		</label>
+		<br>+Escoje 32-bit x86 o 64-bit x664. Run 7-zip. Close 7-zip.
+	</p>
+		<p>
+		<label>
+				<input type="checkbox">Install Wiibackupmanager: <a href="https://wii.guide/wiibackupmanager" target="_blank"> Wii Backup Manager</a>
+		</label>
+		<br>+Run Wiibackupmanager (escoje WiiBackupManager_Win32 o WiiBackupManager_Win64 cuando abres el folder "Wii-Backup-Manager") Cuando 
+				la aplicacion se abre lo puedes cecar. No lo vamos a usar al momento.
+		</p>
+		<p>
+		<label>
+				<input type="checkbox">Crea un folder un tu computadora llamado Wiigames.
+		</label>
+		<br>+ Aqui es donde vas a poner los juegos extracted usando 7-zip, no lo pongas en tu USB!
+		</p>
+		<p>
+		<label>
+				<input type="checkbox">Cuando se bajen los juegos you're going to extract them using 7-zip. 
+		</label>
+		<br>+Follow video from above for this section para ver como se hace! Before doing this read the step above again!!
+		</p><p>
+		<label>
+				<input type="checkbox">Para encontrar el Game ID busca por un link que dice GameTDB.
+		</label>
+		<br>+Ese website esta bueno. Cuando encuentres uno deberia mirarce haci cuando lo abres: <a href="https://www.gametdb.com/Wii/RMCE01" target="_blank"> Example<a/>
+		</p>
+		<p>
+			_______NEXT_______
+		</p>
+		<p>
+			Follow the tutorial: <a href="https://www.youtube.com/watch?v=e4UPJD_KNUM&ab_channel=RetroCapsuleRomKollector" target="_blank"> Online Gaming</a>
+			<br><br>[Start: 2:30 End:14:30]
+		</p>
+		<p>
+			*Todo lo que necesitas esta en el description section del video (**Ya bajastes WiiBackupManager, you do not need to download it again!)
+		</p>
+		<p>
+			Cuando termines el video has lo siguiente:
+			<br>+Ahora que tienes los juegos en tu USB, vamos a organizarlos un poco. Go USB and open wbfs folder. Toma cada file que tiene .info que no esta en un folder y ponlo en el
+			folder indicado. Por ejemplo si bajastes el juego Mario Kart Wii va ver un folder que dige MarioKartWii [RMCE01] y un file que dice disc.info. Toma ese file "disc.info" y metelo en el folder "MarioKartWii [RMCE01]" Has eso con cada juego.
+			<br><br>
+			Y ya es todo! We are done with the USB portion :) Now to the SD card part...
+
+		</p>
+		
+	<h1><center>Sd card</center></h1>
+	<hr>
+		<p>
+			*Here are where all channels and its data is stored. 
+		</p>
+		<p>
+			Follow tutorial:
+			<a href="https://www.youtube.com/watch?v=cbwf1C44hRs&ab_channel=FunkyScott47" target="_blank"> Homebrewing Wii</a>
+			<br>
+			+Todo lo que necesitas esta en el descripción del video.
+		</p>
+		<p>
+			At <mark>16:19</mark>, before you start the USB Loader GX plug in your USB. You want the Wii to know that that is where you want your games to be downloaded y donde estan tus juegos. Plug in your USB and click 
+			on the USB Loader GX and do not do anything else until it moves past the code and stuff. Once you are in the new Wii menu he ends up
+			going to settings to change something. When he goes to change the "MOUNT USB at launch" you do not have to change anything! Leave it as is. 
+			<br><br>
+			Stop watching at <mark>23:30</mark>!!!!
+
+		</p>
+		<p>
+		<label>
+					<input type="checkbox">After you finish the video plug in your sd card into your computer and download this file: <a href="https://wiibrew.org/wiki/Homebrew_Browser" target="_blank"> HomeBrew Browser</a>
+		</label>
+		<br>+Look at the right side of the page and look for a place that says "Links". Click "Download OSC (Recommended)". From here a zip folder should be downloaded. Extract the files and open it. Now look for the folder that says "homebrew_browser" Copy it and go back to your sd card. Go to apps and delete The HomeBrew Browser file you already have in there. Once deleted, paste the homebrew_browser file you just copied here.
+		<br><br>So a run down of what you will do: <br>+You will need to go back into your computer and input the sd card and open the app folder in the sd card. Delete the file you have for the HomeBrew Browser and paste the new "homebrew_browser" file you just copied/obtained into the app folder in your sd card. 
+		</p>
+		<p>
+		<label>
+			<input type="checkbox">After this do the following, install: <a href="https://download.wiimmfi.de/patcher/" target="_blank">autowiimmfipatcher-0.7.5.zip</a>
+		</label>
+		<br>+Once downloaded and the zip folder is extracted, search for "wiimmfipatcher" folder and copy and paste onto app folder on sd card. Slip sd card into wii and go to The Homebrew channel and search for the Wiimmfi channel on there. Load it and it should start downloading some stuff and then it will ask you to insert a game. Insert a game and once inserted the game will start playing as normal. Go back to the homebrew channel screen. Now run the HomeBrew Browser. Once run you are set!
+		</p>
+		<p>
+			Tu USB sigue deberia estar en tu Wii. Si no esta en tu Wii you've missed a step but if you do have it do the following. Vete a USB LOADER GX. When USB LOADER GX loads tus juegos deberian estar ahí, en tu pantalla! Si estan ahí preciona uno de los juegos y chequella si puedes jugar online! You should be able to play online but dejame saber si estas teniedo un problema! 
+		</p>
+	
+		<article>
+			<strong>Y con eso...estas completamente preparada para jugar online. Yaaaaaay ヽ(・∀・)ﾉ
+			<br><br>
+			Wow. Eso fue mucho no? Pat yourself in the back for your hardwork (⁀ᗢ⁀)</strong>
+		<p>
+		<p class="red">
+			<strong>*Textea me si estas confundida o necesitas ayuda!!!* </strong 
+		</article>
+	
+	</body>
+
+
+<html>
