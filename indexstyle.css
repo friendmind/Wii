@@ -12,13 +12,3 @@ article {
 	color: blue;
 }
 
-label {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-label input[type=checkbox] {
-    margin-right: 1rem;
-    height: 20px;
-    width: 20px;
-}
